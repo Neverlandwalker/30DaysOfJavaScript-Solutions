@@ -45,6 +45,12 @@ if(itCompanies.includes('IBM')) {
 } else console.log("IBM does not exist");
 
 // 14
+for (let i = 0; i < itCompanies.length; i+=1) {
+    if (itCompanies[i].includes('oo')) {
+        console.log(itCompanies[i])
+    }
+    
+}
 // 15
 console.log(itCompanies.sort());
 // 16
